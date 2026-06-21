@@ -6,12 +6,6 @@ select * from rawdata limit 5
 SELECT count("UDI"), "Type", avg(air_temp_k) as avgair, avg(process_temp_k) as avgproc, avg(torque_nm) as avgtor FROM rawdata
 GROUP BY "Type";
 
-#CREATE VIEW performance AS
-#SELECT count(*) as quantity, "Type", avg("air_temp_k") as avgairtemp, avg(process_temp_k) as avgproctemp, avg(torque_nm) as avgtor,
-#avg("rot_speed_rpm") as avgspeed, avg("tool_wear_min") as avgtooltime
-#FROM rawdata GROUP BY "Type";
-#select * from performance
-
 CREATE VIEW failures AS
 SELECT rawdata."Type", sum(rawdata.machine_failure) as failure_count, 
 sum(rawdata."HDF") as hdf, sum(rawdata."OSF") as osf, sum(rawdata."PWF") as pwf, sum(rawdata."RNF") as rnf, sum(rawdata."TWF") as twf
