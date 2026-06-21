@@ -40,7 +40,7 @@ Using Pipeline organizing, first a random forest and second a XGBoost prediction
 
 Streamlit App:
 As the second model's result were more accurate, this model was saved as **model.1** using joblib.
-**FailurePrediction.py* was develop as a streamlit app, were users can enter their values and the failure probability is shown.
+**FailurePrediction.py** was develop as a streamlit app, were users can enter their values and the failure probability is shown.
 
 Models comparison:
 Random forest
@@ -62,4 +62,8 @@ XGBoost
     accuracy                           0.98      2000
    macro avg       0.93      0.73      0.80      2000
 weighted avg       0.98      0.98      0.98      2000
+
+
+App UI:
+<img width="745" height="617" alt="image" src="https://github.com/user-attachments/assets/b68c23f7-aaf8-4f45-be48-2779003331d8" />
 
