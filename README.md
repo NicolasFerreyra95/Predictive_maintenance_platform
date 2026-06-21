@@ -28,7 +28,11 @@ After checking the average values for the main columns, three views were generat
 Power BI:
 Two pages were developed in the dashboard:
 **Performance:** Here we can see the production and failure total, distributed by the three types (L, M and H) and the five possible causes (TWF, RNF, HDF, OSF and PWF). The dashboard is ready to use any of them as filter.
+<img width="970" height="551" alt="image" src="https://github.com/user-attachments/assets/eb99ae21-b77c-4a2d-af93-2e5accf5acfc" />
+
 **Failure causes analysis:** Four graphics were set, one for each of the main failure causes (random failures were not included) and the variable they are related with. The area colours define the failure risk probability as the related factors values advance.
+<img width="976" height="550" alt="image" src="https://github.com/user-attachments/assets/60ef2fcf-1065-4e51-80c9-963a60c7474a" />
+
 
 Machine learning:
 A ML notebook file was created. There, scikit learn library was used to develop models to predict failure probability.
