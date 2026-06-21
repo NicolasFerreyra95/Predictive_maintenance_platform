@@ -50,9 +50,8 @@ Random forest
            1       0.71      0.62      0.66        68
 
     accuracy                           0.98      2000
-   macro avg       0.85      0.80      0.83      2000
-weighted avg       0.98      0.98      0.98      2000
-
+    macro avg       0.85      0.80      0.83      2000
+    weighted avg       0.98      0.98      0.98      2000
 XGBoost
               precision    recall  f1-score   support
 
@@ -60,10 +59,10 @@ XGBoost
            1       0.89      0.46      0.60        68
 
     accuracy                           0.98      2000
-   macro avg       0.93      0.73      0.80      2000
-weighted avg       0.98      0.98      0.98      2000
-
+    macro avg       0.93      0.73      0.80      2000
+    weighted avg       0.98      0.98      0.98      2000
 
 App UI:
+
 <img width="745" height="617" alt="image" src="https://github.com/user-attachments/assets/b68c23f7-aaf8-4f45-be48-2779003331d8" />
 
